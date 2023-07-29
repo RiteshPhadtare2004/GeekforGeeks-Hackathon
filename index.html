@@ -1,307 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaQuery.css">
+    <link rel="stylesheet" href="mobileM.css">
+    <link rel="stylesheet" href="mobileL.css">
+    <link rel="stylesheet" href="mobileS.css">
+    <link rel="stylesheet" href="Tablet.css">
 </head>
+
 <body>
-    
-    <!-- <div class="top-banner">
 
-        <div class="container">
-
-            <div class="small-bold-text banner-text">
-
-                New to Usability Hub:Open and Closed card sorting
+    <div class="hero">
+        <nav class="nav-section container flex">
+            <div class="website-logo">
+                <img class="LogoImg" src="images/Logo.png" alt="home page image">
             </div>
 
-        </div>
-
-    </div> -->
-
-    
-    <nav>
-        <div class="container main-nav flex">
-            <a href="#" class="company-logo">
-                <img src="./assets2/pic-4.png" alt=" company logo">
-
-            </a>
-            <div class="nav-links " id="navlinks">
+            <div class="menus flex" id="menus">
                 <ul class="flex">
-                    <li><a href="#" class="hover-links">Home</a></li>
-                    <li><a href="#" class="hover-links">Events</a></li>
-                    <li><a href="#" class="hover-links">Athlets</a></li>
-                    <li><a href="#" class="hover-links">About</a></li>
-                    <li><a href="#" class="hover-links secondary-button">Sign in</a></li>
-                    <li><a href="#" class="hover-links primary-button">Sign up</a></li>
+                    <li><strong><a class="hover-menu" href="#home">Home</a></strong></li>
+                    <li><strong><a class="hover-menu" href="index_players.html">Athletes</a></strong></li>
+                    <li><strong><a class="hover-menu" href="login.html">Blog</a></strong></li>
+                    <li><strong><a class="hover-menu" href="index_Ticket.html">Ticket Booking</a></strong></li>
                 </ul>
             </div>
-            <a href="#" class="nav-toggle hover-link" id="navtoggle"><i class="fa-solid fa-bars"></i></a>
-        </div>
-    </nav>
+            <a href="#" class="nav-toggle hover-menu">
+                <img class="Bars" id="menutoggle" src="images/menuBars.png" alt="">
+            </a>
+        </nav>
 
-    <!-- header section -->
+        <header>
+            <div class="header-section container flex">
+                <div class="horizontal-line">
+                    <img src="images/H_lineYellow.png" alt="">
+                </div>
 
-    <header>
-        <div class="container header-container flex">
-            <div class="header-left">
-                <h2>Badminton-Momota shines on long-awaited Games debut</h2>
-                <p>TOKYO, July 25 (Reuters) - In his long overdue Olympic debut, men's singles number one Kento Momota of Japan easily beat the United States' Timothy Lam 21-12 21-9 on Sunday, even making the occasional trick shot behind his back during their warm-up.
+                <div class="header-text flex">
+                    <h1>PARIS 2024</h1>
+                    <h2>26 July - 11 August</h2>
+                </div>
 
-                    Though Lam had his moments - once bringing his "favourite player" Momota to his knees - he was no match for Japan's darling on his home turf.</p>
-                <a href="#" class="primary-button get-started">Get Started</a>
-            </div>
-            <div class="header-right">
-                <img src="./assets2/bat.jpeg" style="border-radius: 10%; box-shadow: 10px 10px 5px gray;" alt="">
-            </div>
-        </div>
-    </header>
-    <!-- Comapnies section  -->
-   <section class="comapnies-section" >
-
-        <div class="container " >
-            <div class="small-bold-text companies-header">The World wide Olympic Partners</div>
-            <div class="logos" >
-
-                <img src="./assets2/c1.png" alt="" class="logo">
-                <img src="./assets2/c2.png" alt="" class="logo">
-                <img src="./assets2/c3.png" alt="" class="logo">
-                <img src="./assets2/c4.jpg" alt="" class="logo">
-                <img src="./assets2/c6.png" alt="" class="logo">
-                <img src="./assets2/c5.png" alt="" class="logo">
-                <img src="./assets2/c7.png" alt="" class="logo">
-
-
-            </div>
-        </div>
-   </section>
-
-    <section class="feature-section">
-        <div class="container">
-        <div class="feature-header">
-            <h1>Featured
-                athletes</h1>
-            <!-- <a href="#" class="secondary-button">See All Athlets<i class="fa-solid fa-arrow-right-long"></i></a> -->
-        </div>
-
-        <div class="features-area flex">
-            <div class="features-cards flex">
-                <img src="./player/p1.jpeg" alt="" style="border-radius: 40%;">
-                <h3>Faith Chepngetich KIPYEGON</h3>
-                <p>Faith Chepngetich Kipyegon is a Kenyan middle-distance runner specializing in the 1500 meters event.</p>
-                <!-- <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-arrow-right-long"></i></a> -->
+                <div class="horizontal-line">
+                    <img src="images/H_lineYellow.png" alt="">
+                </div>
             </div>
 
-            <div class="features-cards flex">
-                <img src="./player/p2.jpeg" alt=""style="border-radius: 40%;">
-                <h3>Novak DJOKOVIC</h3>
-                <p>He is a Serbian professional tennis player who is widely regarded as one of the greatest tennis players.</p>
-                <!-- <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-arrow-right-long"></i></a> -->
+            <div class="search-section container flex">
+                <div class="search-input">
+                    <input type="text" placeholder="search">
+                </div>
+
+                <div class="search-text ">
+                    <input class="search-btn" type="button" name="search-btn" value="Search">
+                </div>
             </div>
-
-            <div class="features-cards flex">
-                <img src="./player/p3.jpeg" alt="" style="border-radius: 40%;">
-                <h3>Carissa Moore</h3>
-                <p>Carissa Moore is a professional surfer from the United States and a four-time World Surf League Women's Champion.</p>
-                <!-- <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-arrow-right-long"></i></a> -->
-            </div>
-
-            <div class="features-cards flex">
-                <img src="./player/p4.jpeg" alt="" style="border-radius: 40%;">
-                <h3>Eliud KIPCHOGE</h3>
-                <p>Eliud Kipchoge is a Kenyan long-distance runner and the current world record holder in the men's marathon, known for breaking the two-hour barrier in the marathon with a time of 1:59:40.</p>
-                <!-- <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-arrow-right-long"></i></a> -->
-            </div>
-
-            <div class="features-cards flex">
-                <img src="./player/p5.jpeg" alt="" style="border-radius: 80%;">
-                <h3>Neeraj CHOPRA</h3>
-                <p>Neeraj Chopra is an Indian athlete and javelin thrower who won a gold medal in the men's javelin throw event at the 2020 Tokyo Olympics, becoming the first Indian athlete to win a gold medal in athletics at the Olympics.</p>
-                <!-- <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-arrow-right-long"></i></a> -->
-            </div>
-
-            <div class="features-cards flex">
-                <img src="./player/p10.jpeg" alt=""style="border-radius: 10%;">
-                <h3>
-                    Yaroslava MAHUCHIKH</h3>
-                <p>Yaroslava Mahuchikh is a Ukrainian high jumper who holds the world junior record in women's high jump and has won multiple medals in international competitions, including the World Athletics Championships and European Athletics Indoor Championships.</p>
-                <!-- <a href="#" class="secondary-button">Learn More<i class="fa-solid fa-arrow-right-long"></i></a> -->
-            </div>
-
-            </div>
-        </div>
-
-        
-    </div>
-    </section>
-
-    <section class="big-feature" style="margin-top: 30px;">
-         <div class="container  flex big-feature-container">
-            <div class="feature-img" style="width: 150%;">
-                <img src="./assets2/s1.jpg" alt="" style="border-radius: 10%;">
-            </div>
-
-            <div class="feature-dis flex">
-            <h1>OFFICIAL PARIS 2024 HOSPITALITY</h1>
-           
-            <p><h3>Attend the Olympic Games like never before with Official Paris 2024 Hospitality Packages.
-                Use your @Visa, the Official Way to Pay.</h3></p>
-         </div>
-        </div>
-    </section>
-
-    <!-- <section class="big-feature">
-        <div class="container flex big-feature-container" id="second-big-feature">
-          
-
-           <div class="feature-dis flex">
-           <h4>Effortless validation for</h4>
-           <h3>Design professionals</h3>
-           <p>Test interfaces, interaction flows, iconography and more, to help you create intuitive and delightful experiences for your users.</p>
-        </div> -->
-
-        <!-- <div class="feature-img">
-            <img src="./assets/asset 21.png" alt="">
-        </div>
-       </div>
-   </section> -->
-
-   <section class="big-feature" style="margin-top: 50px;" >
-    <div class="container  flex big-feature-container" id="#second-big-feature" >
-       
-       <div class="feature-dis flex">
-       <h1>Shop New Olympic Collection</h1>
-       
-       <p><h3>Our new Collection is emblazoned with inspirational quotes and designs of the founder of the modern Olympic Games Pierre de Coubertin..</h3></p>
+        </header>
     </div>
 
-    <div class="feature-img" style="width: 150%;">
-        <img src="./assets2/s2.jpeg" alt="" style="border-radius: 10%;">
-    </div>
-   </div>
-</section>
-    <section class="example-section">
 
-        <div class="container">
-            <div class="examples-header flex">
-                
-                <h2>Events and News</h2>
-                <!-- <a href="#" class="secondary-button">see More Examples<i class="fa-solid fa-arrow-right-long"></i></a> -->
+
+
+    <section class="game-section">
+        <div class="section-two container flex">
+            <div class="sec-two-heading flex">
+                <h3> WATCH YOUR FAVORITES </h3>
             </div>
+            <div class="corosal container flex">
+                <div class="pic-ctn flex">
+                    <div class="WYFimg">
+                        <img class="WYF" src="images/GettyImages.png" alt="">
+                    </div>
+                    <div class="WYFimg">
+                        <img class="WYF" src="images/wrestling.png" alt="">
+                    </div>
+                    <div class="WYFimg">
+                        <img class="WYF" src="images/pvsindhu.png" alt="">
+                    </div>
+                    <div class="WYFimg">
+                        <img class="WYF" src="images/jymnastic.jpg" alt="">
+                    </div>
+                    <div class="WYFimg">
+                        <img class="WYF" src="images/indiamixedrelayteam.png" alt="" class="pic">
+                    </div>
+                    <!-- <img class="WYFimg" src="images/GettyImages.png" alt="" class="pic">
+                    <img class="WYFimg" src="images/wrestling.png" alt="" class="pic">
+                    <img class="WYFimg" src="images/pvsindhu.png" alt="" class="pic">
+                    <img class="WYFimg" src="images/jymnastic.jpg" alt="" class="pic">
+                    <img class="WYFimg" src="images/indiamixedrelayteam.png" alt="" class="pic"> -->
+                </div>
 
-            <div class="examples-area flex">
-                
-                <a href="#" class="examples-cards">
-                    <h3 class="card-text">USA reveals youth-packed roster for the FIBA World Cup</h3>
 
-                </a>
-                
-                <a href="#" class="examples-cards ">
-                    <h3 class="card-text flex">Asian Games 2023 table tennis: Sharath Kamal, Manika Batra to lead India - full squad</h3>
+                <div class="DescriptionPara flex">
 
-                </a>
-            
-                <a href="#" class="examples-cards ">
-                    <h3 class="card-text flex">Tour de France 2023: Daily stage results and general classification standings</h3>
+                    <div class="animatedPara flex ">
 
-                </a>
-           
-                
-                <a href="#" class="examples-cards">
-                    <h3 class="card-text">Injured Jeremy Lalrinnunga to miss World Weightlifting Championships 2023</h3>
+                        <p class="para"><b class="Bsize">A</b><br>Tennis has been a part of the Summer Olympic Games
+                            since the inaugural 1896 Games in Athens. However, it was dropped after the 1924 Games due
+                            to disputes between the International Lawn Tennis Federation (ILTF) and the International
+                            Olympic Committee (IOC) over how to define amateur players.
+                            <br>
+                        </p>
 
-                </a>
-            
-            
+                        <p class="para"><b class="Bsize">B</b><br>Wrestling is a combat sport that has been contested at
+                            the Olympic Games since the first modern Games in 1896. The sport is divided into two
+                            styles: freestyle and Greco-Roman. Freestyle wrestling allows wrestlers to use holds and
+                            throws from all parts of the body, while Greco-Roman wrestling only allows wrestlers to use
+                            holds and throws from above the waist.
+                            <br>
+
+                        </p>
+
+                        <p class="para"><b class="Bsize">C</b><br>Badminton was first contested at the 1972 Summer
+                            Olympics in Munich as a demonstration sport. It was officially included in the Olympic
+                            program in 1992, with men's and women's singles and doubles events. The mixed doubles event
+                            was added in 1996.
+                            <br>
+
+
+                        </p>
+
+                        <p class="para"><b class="Bsize">D</b><br>Artistic gymnastics is a sport that combines
+                            acrobatics, dance, and strength. It is one of the most popular sports at the Summer
+                            Olympics, and it has been contested since the first modern Games in 1896.
+                            <br>
+
+
+                        </p>
+
+                        <p class="para"><b class="Bsize">E</b><br>The Paris 2024 Olympic Games will be the most
+                            sustainable Games ever. The organizing committee has committed to reducing the Games' carbon
+                            footprint by 55% compared to previous Games. The Games will also be using renewable energy
+                            sources and will be implementing a number of other sustainability measures.
+                            <br>
+
+
+                        </p>
+
+                    </div>
+
+                </div>
             </div>
-        
+        </div>
     </section>
 
-    <section class="cta-section flex">
+    <section class="olympic-location-intro">
+        <div class="sec-three container flex">
+            <div class="left-div">
+                <img src="images/Ground.png" alt="">
+            </div>
+            <div class="right-div">
+                <p>India first participated at the Olympic Games in 1900, with a lone athlete Norman
+                    Pritchard winning two medals – both silver – in athletics and became the first
+                    Asian nation to win an Olympic medal. The nation first sent a team to the Summer
+                    Olympic Games in 1920 and has participated in every Summer Games since then.
+                    India has also competed at several Winter Olympic Games beginning in 1964.
+                    Indian athletes have won 35 medals, all at the Summer Games.
+                    India has also competed at several Winter Olympic Games beginning in 1964.
+                    Indian athletes have won 35 medals, all at the Summer Games.
+                    India has also competed at several Winter Olympic Games beginning in 1964.
+                </p>
+            </div>
+        </div>
+    </section>
 
+    <section class="winner-player-section">
+        <div class="sec-four container flex">
+            <div class="winner-cards flex">
+                <a href="#" class="example-card">
+                    <h4 class="card-text">Dipa Karmakar in India gymnastics team for Asian Games 2023 - full squad</h4>
+                </a>
 
-       
-        <div class="container flex cta-section-container" style="width: 30%;">
-            <h1>Personalise your Olympic experience</h1>
-            <p>
-                Stay up to date on your favourite sports and athletes. Watch original Olympic films and documentaries. Get exclusive stories about your favourite Olympic athletes and sports into your e-mail inbox.</p>
-            <!-- <a href="#" class="primary-button">Get Started </a> -->
+                <a href="#" class="example-card">
+                    <h4 class="card-text">Commonwealth Weightlifting Championships 2023: India bag three gold medals
+                    </h4>
+                </a>
+
+                <a href="#" class="example-card">
+                    <h4 class="card-text">US Open 2023 badminton: PV Sindhu, Lakshya Sen march into second round</h4>
+                </a>
+
+                <a href="#" class="example-card">
+                    <h4 class="card-text">Live streaming, Major League Cricket 2023: Where to watch IPL styled meet -
+                        full schedule</h4>
+                </a>
+
+                <a href="#" class="example-card">
+                    <h4 class="card-text">Wimbledon 2023 tennis: Rohan Bopanna-Matthew Ebden reach men’s doubles
+                        semi-finals</h4>
+                </a>
+
+                <a href="#" class="example-card">
+                    <h4 class="card-text">Asian Athletics Championships 2023: Abhishek Pal wins bronze in 10,000m for
+                        India’s first medal</h4>
+                </a>
+            </div>
+
+            <div class="women-div">
+                <img src="images/running_women.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="big-news-section">
+        <div class="sec-five container flex">
+            <div class="left-part flex">
+                <h5>World At Their Feet Women's World Cup</h5>
+                <p>Watch now for a behind-the-scenes look at some top footballers at the FIFA Women’s World Cup 2023.
+                </p>
+                <input class="Play-btn" type="button" name="search-btn" value="Play Video">
+            </div>
+            <div class="right-part">
+                <img class="ImageSecFive" src="images/footballIMG.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="blogs-section">
+        <div class="sec-six container flex">
+            <div class="first-part">
+                <h3> Blogs </h3>
+            </div>
+            <div class="msg-box second-part">
+                <h2>Ritesh Phadtare</h2>
+                <p>The Olympic Games are one of the most-watched televised events,
+                    garnering billions of viewers all over the globe, with the 2008
+                    Beijing Olympic Games holding the Guinness World Record for having
+                    the largest Olympic television viewership at 4.7 billion.
+                    That translates to about 70% of the world's population at the time.
+                    The large number is staggering, but it's no surprise as fans all over
+                    the globe show their support for their country's athletes in different
+                    sporting events.
+                </p>
+            </div>
+            <div class="msg-box second-part">
+                <h2>Suraj Shelke</h2>
+                <p>The Olympic Games are one of the most-watched televised events,
+                    garnering billions of viewers all over the globe, with the 2008
+                    Beijing Olympic Games holding the Guinness World Record for having
+                    the largest Olympic television viewership at 4.7 billion.
+                    That translates to about 70% of the world's population at the time.
+                    The large number is staggering, but it's no surprise as fans all over
+                    the globe show their support for their country's athletes in different
+                    sporting events.
+                </p>
+            </div>
+            <div class="msg-box second-part">
+                <h2>Nikita Nagwade</h2>
+                <p>The Olympic Games are one of the most-watched televised events,
+                    garnering billions of viewers all over the globe, with the 2008
+                    Beijing Olympic Games holding the Guinness World Record for having
+                    the largest Olympic television viewership at 4.7 billion.
+                    That translates to about 70% of the world's population at the time.
+                    The large number is staggering, but it's no surprise as fans all over
+                    the globe show their support for their country's athletes in different
+                    sporting events.
+                </p>
+            </div>
+            <div class="msg-box second-part">
+                <h2>Sangam Gorde</h2>
+                <p>The Olympic Games are one of the most-watched televised events,
+                    garnering billions of viewers all over the globe, with the 2008
+                    Beijing Olympic Games holding the Guinness World Record for having
+                    the largest Olympic television viewership at 4.7 billion.
+                    That translates to about 70% of the world's population at the time.
+                    The large number is staggering, but it's no surprise as fans all over
+                    the globe show their support for their country's athletes in different
+                    sporting events.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="online-booking">
+        <div class="sec-seven container flex">
+            <div class="upper-div flex">
+                <img src="images/sub-logo.png" alt="">
+                <h3>Online Booking</h3>
+            </div>
+            <div class="lower-div flex">
+                <div class="Ticketing flex">
+                    <h5> Ticketing </h5>
+                    <h2>India 2023 ticket prices</h2>
+                    <p>Single ticket prices for the opening and closing ceremonies range
+                        from JPY 12,000 (INR 7,852) to JPY 300,000 (INR 1,96,300), while group tickets are at JPY 2,020
+                        (INR 1,322), and wheelchair tickets cost between JPY 12,000 (INR 7,852) to JPY 45,000 (INR
+                        29,445*).</p>
+                    <a href="index_Ticket.html"><input class="Play-btn" type="button" name="search-btn"
+                            value="Buy Now"></a>
+                </div>
+
+                <div class="Hospitality Ticketing flex">
+                    <h5> Hospitality </h5>
+                    <h2>India 2023 ticket prices</h2>
+                    <p>Fans and stakeholders will have access to unique ticket-inclusive travel and hospitality
+                        experiences through one official, exclusive hospitality provider.</p>
+                    <a href="index_Ticket.html"><input class="Play-btn" type="button" name="search-btn"
+                            value="Buy Now"></a>
+                </div>
+            </div>
         </div>
 
-        <div class="cta-img" style="width:300px; overflow: hidden;width: 60%;">
-            <img src="./player/suraj.png" alt="" style="background-size: cover;">
-        </div>
-        
     </section>
 
     <footer>
-        <div class="container flex footer-container">
-            <a href="" class="company-logo">
-                <img src="./assets/asset 1.png" alt="logo">
-            </a>
-
-            <div class="link-col flex">
-                <h4>Product</h4>
-                <a href="#" class="hover-links">Overview</a>
-                <a href="#" class="hover-links">Pricing</a>
-                <a href="#" class="hover-links">Usability</a>
-                <a href="#" class="hover-links">Customers Page</a>
-                <a href="#" class="hover-links">status Page</a>
-            
-            </div>
-
-            <div class="link-col flex">
-                <h4>Methodology</h4>
-                <a href="#" class="hover-links">Overview</a>
-                <a href="#" class="hover-links">Pricing</a>
-                <a href="#" class="hover-links">Usability</a>
-                <a href="#" class="hover-links">Customers Page</a>
-                <a href="#" class="hover-links">status Page</a>
-            
-            </div>
-
-            <div class="link-col flex">
-                <h4>Resources</h4>
-                <a href="#" class="hover-links">Overview</a>
-                <a href="#" class="hover-links">Pricing</a>
-                <a href="#" class="hover-links">Usability</a>
-                <a href="#" class="hover-links">Customers Page</a>
-                <a href="#" class="hover-links">status Page</a>
-            
-            </div>
+        <div class="foot container flex">
+            <p>@ Designed and Developed by --- 
+                Sangam Ashok Gorde, 
+                Suraj Sunil Shelke, 
+                Nikita Nagwade, 
+                Ritesh Ranjeet Phadtare</p>
         </div>
     </footer>
 
-    <div class="subfooter">
-        <div class="container flex sub-footer-container">
-
-            <a href="" class="hoverlink">Privacy policy</a>
-            <a href="" class="hoverlink"> Terms and conditions</a>
-            <a href="" class="hoverlink">Security Information</a>
-        </div>
-    </div>
-<!-- 
-    <div class="spacer" style="height: 100vh;">
-
-    </div> -->
-
-
 
     <script>
-        const toggleButton =document.getElementById('navtoggle');
-        const navlink = document.getElementById('navlinks');
 
-        toggleButton.addEventListener('click', ()=>{
-            navlink.classList.toggle('active');
+        const toggleButton = document.getElementById('menutoggle');
+        const navLink = document.getElementById('menus');
+
+        toggleButton.addEventListener('click', () => {
+            navLink.classList.toggle('active');
         })
     </script>
 
-
-
-    <script src="https://kit.fontawesome.com/8879a529d5.js" crossorigin="anonymous"></script>
-
 </body>
+
 </html>
