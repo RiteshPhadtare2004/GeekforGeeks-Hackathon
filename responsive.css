@@ -6,6 +6,7 @@
   .hero .nav-toggle {
     display: block;
     margin-right: px;
+    z-index: 5;
   }
 
   .hero .nav-section {

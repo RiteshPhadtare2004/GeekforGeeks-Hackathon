@@ -234,8 +234,13 @@ body{
   height: 168px;
 }
 
+.nav-section a{
+  z-index: 10000;
+}
+
 .logo img{
   width: 30px;
+  
 }
 
 .headline-section{

@@ -8,6 +8,12 @@
         top: 10px;
         border-radius: 0px;
     }
+
+    .hero .nav-toggle {
+        display: block;
+        z-index: 5;
+    }
+
     .hero .Bars{
         width: 20px;
         height: 20px;
