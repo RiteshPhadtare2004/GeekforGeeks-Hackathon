@@ -222,4 +222,46 @@ input {
 
 @media screen and (max-width: 426px) {
 
+body{
+  width: 477px;
+}
+
+.links{
+  display: none;
+}
+
+.hero{
+  height: 168px;
+}
+
+.logo img{
+  width: 30px;
+}
+
+.headline-section{
+  position: absolute;
+  top: 20px;
+}
+
+.heading{
+  padding-left: 0px;
+}
+
+.heading img{
+  width: 100%;
+}
+
+.Search-section{
+  display: none;
+}
+
+.athlets{
+  margin-top: 63px;
+  margin-left: 77px;
+}
+
+.imgpreview .preview{
+  left: 0px;
+  width: 22rem;
+}
 }

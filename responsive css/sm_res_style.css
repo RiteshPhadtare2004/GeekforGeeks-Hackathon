@@ -33,6 +33,7 @@
         font-size: 2.2rem;
         color: #ffffff;
         text-shadow: 5px 5px #b5b5b528;
+        line-height: normal;
     }
 
     .hero .horizontal-line img{
@@ -47,7 +48,7 @@
 
     .hero .search-section{
         justify-content: center;
-        margin-top: 1.5%;
+        margin-top: -59px;
     }
     .hero .search-input input {
         width: 200px;
